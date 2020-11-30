@@ -1,0 +1,7 @@
+﻿  book_info.cpp
+D:\5____Programming\C++\Practice\book_class\isbn.h(28,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\5____Programming\C++\Practice\book_class\isbn.h(35,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\5____Programming\C++\Practice\book_class\isbn.h(42,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\5____Programming\C++\Practice\book_class\isbn.h(49,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\5____Programming\C++\Practice\book_class\book_info.cpp(66,2): warning C4286: 'std::range_error': is caught by base class ('const std::exception &') on line 62
+  book_class.vcxproj -> D:\5____Programming\C++\Practice\book_class\x64\Debug\book_class.exe

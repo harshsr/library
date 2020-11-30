@@ -46,6 +46,12 @@ public:
 					return false;
 				}
 
+				int length4 = to_string(check_digit).length();
+				if (length4 > 1)
+				{
+					throw invalid_isbn{};
+					return false;
+				}
 				return true;
 			}
 			else
@@ -57,9 +63,11 @@ public:
 		catch (const std::exception&)
 		{
 			cout << "\nInvalid ISBN\n";
+			return false;
 		}
 		catch (invalid_isbn) {
 			cout << "\nInvalid ISBN\n";
+			return false;
 		}
 	}
 
