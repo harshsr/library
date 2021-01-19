@@ -1,0 +1,2 @@
+D:\5____Programming\C++\Practice\book_class\x64\Debug\book_class.exe
+D:\5____Programming\C++\Practice\book_class\x64\Debug\book_class.pdb
